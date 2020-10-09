@@ -1,6 +1,6 @@
 # Coder Cloud - Private Alpha
 
-Access code-server (VSCode in the browser) from anywhere *without* complex configuration. 
+Access [code-server](https://github.com/cdr/code-server) (VSCode in the browser) from anywhere *without* complex configuration. 
 Coder Cloud eliminates the need for configuring SSL, network firewall rules, authentication, etc.
 
 
