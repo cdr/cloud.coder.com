@@ -6,6 +6,8 @@ Coder Cloud eliminates the need for configuring SSL, network firewall rules, aut
 
 Use your code-server instance from any device, even an iPad, without the setup nightmare. 
 
+Request access to the private alpha [here](https://codercom.typeform.com/to/U4IKyv0W).
+
 ## Steps
 **1. Start code-server with the new `--coder-bind` flag**
 ```
@@ -45,4 +47,4 @@ $ code-server --coder-bind home_dev
 
 ## Feedback and Support
 
-Please send feedback to [jon@coder.com](mailto:jon@coder.com).
+Please send feedback to [jon@coder.com](mailto:jon@coder.com) or open an [issue](https://github.com/cdr/cloud/issues/new).
