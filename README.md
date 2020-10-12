@@ -9,9 +9,9 @@ Use your code-server instance from any device, even an iPad, without the setup n
 Request access to the private alpha [here](https://codercom.typeform.com/to/U4IKyv0W).
 
 ## Steps
-**1. Start code-server with the new `--coder-bind` flag**
+**1. Start code-server with the new `--link` flag**
 ```
-$ code-server --coder-bind
+$ code-server --link
 ```
 
 **2. Authenticate with Github**
@@ -24,13 +24,13 @@ you can access your IDE at https://charlie_macbook-cmoog.cdr.co
 
 ## Usage
 
-## --coder-bind
+## --link
 Tell code-server to serve VSCode on a public URL protected by your
 Github OAuth authentication. Add an optional string value to specify a custom instance name.
 The instance name defaults to your hostname as a fallback.
 
 ```
-$ code-server --coder-bind
+$ code-server --link
 
 <other log output>
 [2020-10-08T21:30:44.847Z] info  Proxying code-server to Coder Cloud, you can access your IDE at https://charlie_macbook-cmoog.cdr.co
@@ -39,7 +39,7 @@ $ code-server --coder-bind
 #### Custom instance name
 
 ```
-$ code-server --coder-bind home_dev
+$ code-server --link home_dev
 
 <other log output>
 [2020-10-08T21:30:44.847Z] info  Proxying code-server to Coder Cloud, you can access your IDE at https://home_dev-cmoog.cdr.co
