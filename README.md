@@ -45,6 +45,8 @@ $ code-server --link home_dev
 [2020-10-08T21:30:44.847Z] info  Proxying code-server to Coder Cloud, you can access your IDE at https://home_dev-cmoog.cdr.co
 ```
 
+To access web services with your cloud URL, browse to `/proxy/<port>/` (see [code-server FAQ](https://github.com/cdr/code-server/blob/v3.6.0/doc/FAQ.md#how-do-i-securely-access-web-services)).
+
 ## Feedback and Support
 
 Please send feedback to [jon@coder.com](mailto:jon@coder.com) or open an [issue](https://github.com/cdr/cloud/issues/new).
